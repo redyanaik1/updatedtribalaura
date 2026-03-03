@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+.service {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+}
+.service-header {
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #4caf50;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-services {
+  display: none;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+}
+.sub-services div {
+  padding: 5px 0;
+  cursor: pointer;
+}
+.sub-services div:hover {
+  background-color: #ddd;
+}
+.toggle-icon {
+  transition: transform 0.3s;
+}
+.active .toggle-icon {
+  transform: rotate(90deg);
+}
